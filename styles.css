@@ -54,7 +54,8 @@ h5 {
   border: none;
 }
 
-.modal-title {
+.modal-title,
+.forgotten-password {
   color: #021231;
 }
 
@@ -134,7 +135,8 @@ input {
   font-size: 0.9rem;
 }
 
-.product-section {
+.product-section,
+.login-background {
   background-color: #8a9cf5;
   background-image: url(./Assets/recurso.png);
   width: 100%;

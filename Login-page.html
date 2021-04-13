@@ -16,9 +16,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Login</title>
+    <title>Inicia sesión</title>
   </head>
-  <body>
+  <body class="login-background">
     <div class="card-login">
       <section class="container w-75 my-5 shadow">
         <div class="row align-items-lg-stretch">
@@ -30,23 +30,30 @@
             <form action="#">
               <div class="mb-4">
                 <label for="email" class="form-label">Correo Electronico</label>
-                <input type="email" class="form-control" required />
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="tucorreo@gmail.com"
+                  required
+                />
               </div>
               <div class="mb-4">
                 <label for="password" class="form-label">Contraseña</label>
                 <input type="password" class="form-control" required />
               </div>
               <div class="mb-4">
-                <button type="submit" class="btn btn-primary w-100">
+                <button type="submit" class="btn btn-prim w-100">
                   Iniciar Sesion
                 </button>
               </div>
-              <small
-                ><a data-toggle="modal" data-target="#modal" href="#"
-                  >Olvide mi contraseña</a
-                ></small
-              ><br />
-              <small><a href="#">Registrarme</a></small>
+              <div class="actions-steps d-flex justify-content-around">
+                <small
+                  ><a data-toggle="modal" data-target="#modal" href="#"
+                    >Olvide mi contraseña</a
+                  ></small
+                >
+                <small><a href="#">Registrarme</a></small>
+              </div>
             </form>
             <div class="container w-100 my-5">
               <div class="row text-center">
@@ -91,19 +98,19 @@
       <div class="modal fade" tabindex="-1" id="modal">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
-            <div class="modal-header fw-bold text-white">
-              Recuperar Contraseña
+            <div class="modal-header border-0 d-flex justify-content-center">
+              <h5 class="forgotten-password text-center">
+                Recupera tu contraseña
+              </h5>
             </div>
             <div class="modal-body text-center">
               Ingresa tu correo electronico y recibiras un email con los pasos a
               seguir para recupear tu contraseña
               <input type="email" class="form-control mt-4" required />
             </div>
-            <div class="modal-footer">
-              <button class="btn btn-outline-dark" data-dismiss="modal">
-                Cancelar
-              </button>
-              <button class="btn btn-primary">Recuperar Contraseña</button>
+            <div class="modal-footer border-0">
+              <button class="btn btn-sec" data-dismiss="modal">Cancelar</button>
+              <button class="btn btn-prim">Recuperar contraseña</button>
             </div>
           </div>
         </div>
