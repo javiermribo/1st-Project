@@ -261,7 +261,7 @@ input {
 }
 
 .bg {
-  background-image: url(../img/image_login.jpg);
+  background-image: url(./Assets/image_login.jpg);
   background-position: center;
 }
 
