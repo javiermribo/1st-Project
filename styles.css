@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+  min-width: 320px;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #2845c8;
+}
+
+.mascotienda-brand {
+  font-weight: 600;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.searchbox {
+  font-size: 0.8rem;
+}
+
+.btn-sec {
+  color: #021231;
+  background-color: #788cf3;
+  border: none;
+}
+
+.btn-sec:hover {
+  background-color: #acbaff;
+}
+
+.btn-prim {
+  color: #021231;
+  background-color: #f59c33;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-prim:hover {
+  background-color: #f5b133;
+  color: #021231;
+  border: none;
+}
+
+.modal-title {
+  color: #021231;
+}
+
+.img-subscription {
+  width: 30%;
+  height: auto;
+}
+
+.benefits {
+  list-style-type: none;
+}
+
+label {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+input {
+  border-width: 2px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #8a9cf5;
+  font-size: 0.7rem;
+  padding: 3px;
+}
+
+.terms,
+.newsletter {
+  width: auto;
+}
+
+.agree {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.hero-section img {
+  width: 100%;
+  min-width: 320px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.top-sales-items div,
+.novelties-items div {
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.carousel-caption h5 {
+  width: auto;
+  font-size: 2.3rem;
+}
+
+.most-view {
+  background-color: #cfd7ff;
+}
+
+.most-view img {
+  border-radius: 5px 0 0 5px;
+}
+
+.most-view span {
+  font-size: 0.9rem;
+}
+
+.product-section {
+  background-color: #8a9cf5;
+  background-image: url(./Assets/recurso.png);
+  width: 100%;
+  height: auto;
+}
+
+.card-section-title {
+  font-weight: 600;
+}
+
+.cards-container-product {
+  padding: 30px 0 80px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  width: 270px;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card-title {
+  font-weight: 300;
+}
+
+.text-body-card {
+  height: 48px;
+}
+
+.product-price {
+  font-weight: 600;
+}
+
+.product-card img {
+  width: 270px;
+  height: 198.36px;
+  border-radius: 8px 8px 0 0;
+}
+
+.badge {
+  width: auto;
+  height: 20px;
+  font-size: 14px;
+}
+
+.space-card {
+  padding: 16px;
+}
+
+.container-video {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-video-text {
+  position: absolute;
+  top: 80%;
+}
+
+.cover-title {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.product-img {
+  width: 292px;
+  height: auto;
+  border-radius: 8px;
+  padding: 0;
+}
+
+.food-card {
+  padding: 10px;
+  margin: auto;
+  width: 90%;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.product-food-title {
+  color: #2845c8;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3.8rem;
+}
+
+.subtext-food {
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.payment-background {
+  padding: 6px;
+  width: 285px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-detail {
+  list-style-type: none;
+  width: 60%;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 320px) {
+  body {
+    min-width: 320px;
+  }
+
+  .navbar {
+    max-width: 320px;
+  }
+
+  .subtext-food {
+    width: max-content;
+    margin: auto;
+  }
+
+  .product-detail {
+    padding: 0 10px 0 10px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .food-card {
+    margin-top: 30px;
+    width: 100%;
+    background: #ffffff;
+  }
+
+  .food-button {
+    font-size: 0.8rem;
+  }
+}
