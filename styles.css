@@ -226,8 +226,8 @@ input {
 }
 
 .product-img {
-  width: 292px;
-  height: auto;
+  max-width: 450px;
+  max-height: 450px;
   border-radius: 8px;
   padding: 0;
 }
@@ -235,7 +235,7 @@ input {
 .food-card {
   padding: 10px;
   margin: auto;
-  width: 90%;
+  width: 338px;
   background: #ffffff;
   border-radius: 8px;
 }
@@ -262,9 +262,9 @@ input {
 
 .product-detail {
   list-style-type: none;
-  width: 60%;
+  width: 80%;
   margin: auto;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
 }
 
 .bg {
@@ -283,6 +283,10 @@ input {
 
 .login-radius2 {
   border-radius: 8px 0 0 8px;
+}
+
+.btn-shop {
+  width: 100%;
 }
 
 @media (max-width: 320px) {
@@ -316,8 +320,20 @@ input {
   }
 }
 
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 @media (max-width: 991px) {
   .small-radius {
     border-radius: 8px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
   }
 }
