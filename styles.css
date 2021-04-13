@@ -260,6 +260,24 @@ input {
   font-size: 1.1rem;
 }
 
+.bg {
+  background-image: url(../img/image_login.jpg);
+  background-position: center;
+}
+
+.card-login {
+  height: 80%;
+}
+
+.login-radius1 {
+  border-radius: 0 8px 8px 0;
+  /*   agregar border-radius a esq sup e inf izq en @media */
+}
+
+.login-radius2 {
+  border-radius: 8px 0 0 8px;
+}
+
 @media (max-width: 320px) {
   body {
     min-width: 320px;
