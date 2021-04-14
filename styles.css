@@ -298,6 +298,10 @@ input {
   width: fit-content;
 }
 
+.comment-section-published {
+  border-radius: 16px;
+}
+
 @media (max-width: 320px) {
   body {
     min-width: 320px;
@@ -341,11 +345,23 @@ input {
     display: flex;
     justify-content: space-around;
   }
+
+  .food-information {
+    padding-left: 0;
+  }
+
+  .comment-section-published {
+    margin-right: 10px;
+  }
 }
 
 @media (max-width: 767px) {
   .align-text-button {
     display: block;
+  }
+
+  .comment-section-published {
+    margin-right: 10px;
   }
 }
 
