@@ -278,7 +278,6 @@ input {
 
 .login-radius1 {
   border-radius: 0 8px 8px 0;
-  /*   agregar border-radius a esq sup e inf izq en @media */
 }
 
 .login-radius2 {
@@ -287,6 +286,16 @@ input {
 
 .btn-shop {
   width: 100%;
+}
+
+.textarea-properties {
+  width: 60%;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.btn-form-width {
+  width: fit-content;
 }
 
 @media (max-width: 320px) {
@@ -317,6 +326,13 @@ input {
 
   .food-button {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .textarea-properties {
+    width: 80%;
+    height: 150px;
   }
 }
 
