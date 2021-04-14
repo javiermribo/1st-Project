@@ -327,12 +327,18 @@ input {
   }
 }
 
+@media (max-width: 767px) {
+  .align-text-button {
+    display: block;
+  }
+}
+
 @media (max-width: 991px) {
   .small-radius {
     border-radius: 8px;
   }
 
-  .row {
+  .the-row {
     display: flex;
     justify-content: center;
   }
