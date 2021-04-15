@@ -148,6 +148,10 @@ input {
   height: auto;
 }
 
+.product-section-p {
+  padding-bottom: 50px;
+}
+
 .card-section-title {
   font-weight: 600;
 }
