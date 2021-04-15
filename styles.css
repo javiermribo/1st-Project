@@ -386,6 +386,12 @@ input {
   }
 }
 
+@media (max-width: 424px) {
+  .p-320 {
+    padding: 0;
+  }
+}
+
 @media (max-width: 425px) {
   .textarea-properties {
     width: 80%;
