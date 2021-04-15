@@ -141,7 +141,8 @@ input {
 }
 
 .product-section,
-.login-background {
+.login-background,
+.img-background {
   background-color: #8a9cf5;
   background-image: url(./Assets/recurso.png);
   width: 100%;
