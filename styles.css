@@ -171,6 +171,10 @@ input {
   border-radius: 8px;
   text-align: center;
 }
+.product-card:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 
 .card-title {
   font-weight: 300;

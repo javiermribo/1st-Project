@@ -541,9 +541,91 @@
         </div>
       </div>
     </div>
-
     <footer></footer>
-
+    <div
+      class="modal fade"
+      id="subscriptionModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h5
+              class="modal-title text-center pb-0 px-1"
+              id="exampleModalLabel"
+            >
+              Suscribite a Mascotienda+ y disfruta de increíbles beneficios
+            </h5>
+          </div>
+          <div class="modal-body d-flex flex-column align-items-center">
+            <img
+              class="img-subscription"
+              src="./Assets/pet.svg"
+              alt="Imagen suscripción"
+            />
+            <ul class="benefits px-3 mt-4 text-center">
+              <li>20% de descuento en alimentos</li>
+              <li class="pt-2">
+                10% de descuento en peluquería con veterinarias asociadas a
+                Mascotienda
+              </li>
+              <li class="pt-2">Envios sin cargo en todas tus compras</li>
+            </ul>
+            <form class="d-flex flex-column align-items-center w-100">
+              <label for="name">Ingresa tu nombre completo</label>
+              <input
+                type="text"
+                class="name d-block w-100"
+                placeholder="Juan Martinez"
+                required
+              />
+              <label for="email">Ingresa tu correo electronico</label>
+              <input
+                type="email"
+                class="email d-block w-100"
+                placeholder="tucorreo@gmail.com"
+                required
+              />
+              <label for="age">Tu edad</label>
+              <input
+                type="number"
+                class="age d-block w-100"
+                placeholder="35"
+                min="18"
+                max="99"
+                required
+              />
+              <div>
+                <input type="checkbox" class="terms" required />
+                <label class="agree" for="terms"
+                  >Acepto los términos y condiciones</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" class="newsletter" required />
+                <label class="agree" for="newsletter"
+                  >Acepto recibir novedades por email</label
+                >
+              </div>
+              <div class="modal-footer border-0">
+                <button
+                  type="button"
+                  class="btn btn-sec shadow"
+                  data-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+                <button type="submit" class="btn btn-prim shadow">
+                  Suscribirme
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
