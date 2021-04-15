@@ -359,6 +359,20 @@ input {
   background-image: url(./Assets/Ellipse5.png);
 }
 
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover img {
+  transform: scale(0.9);
+}
+
 @media (max-width: 320px) {
   body {
     min-width: 320px;
