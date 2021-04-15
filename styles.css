@@ -284,6 +284,10 @@ input {
   border-radius: 8px 0 0 8px;
 }
 
+.align-text-button {
+  width: 130px;
+}
+
 .btn-shop {
   width: 100%;
 }
