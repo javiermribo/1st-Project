@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>Sobre nosotros</title>
   </head>
-  <body>
+  <body class="img-background">
     <header>
       <nav class="navbar fixed-top navbar-light navbar-expand-lg shadow">
         <a class="navbar-brand mascotienda-brand text-white" href="./index.html"
@@ -78,36 +78,53 @@
       </nav>
     </header>
     <main>
-      <h1 class="About-us-title text-center mt-5 pt-3">Sobre nosotros</h1>
-      <h5 class="About-us-subt text-center px-2">
+      <!-- Hacer un background al titulo y subtitulo del mismo color de fondo
+            Ver porque entre esta pag e img-page los titulos parecen dif.
+            Hacer un pequeño badge a los nombres -->
+      <h1 class="About-us-title text-center mt-5 pt-3 text-white">
+        Sobre nosotros
+      </h1>
+      <h5 class="About-us-subt text-center px-2 text-white">
         Este es el increíble equipo detrás de Mascotienda. Conocé un poco más
         sobre nosotros, nuestras habilidades y de las grandiosas cosas que
         podemos hacer.
       </h5>
       <section class="team-members">
         <div class="photo-group1">
-          <img
-            src="./Assets/member1.png"
-            alt="Miembro de equipo"
-            class="member-photo1"
-          />
-          <img
-            src="./Assets/member2.png"
-            alt="Miembro de equipo"
-            class="member-photo2"
-          />
+          <div class="member-container">
+            <img
+              src="./Assets/member1.png"
+              alt="Miembro de equipo"
+              class="member-photo1"
+            />
+            <p class="member-name text-center">Javier Martinez Ribo</p>
+          </div>
+          <div class="member-container">
+            <img
+              src="./Assets/member2.png"
+              alt="Miembro de equipo"
+              class="member-photo2"
+            />
+            <p class="member-name text-center">Francisco Apellido</p>
+          </div>
         </div>
         <div class="photo-group2">
-          <img
-            src="./Assets/member3.png"
-            alt="Miembro de equipo"
-            class="member-photo01"
-          />
-          <img
-            src="./Assets/member4.png"
-            alt="Miembro de equipo"
-            class="member-photo02"
-          />
+          <div class="member-container">
+            <img
+              src="./Assets/member3.png"
+              alt="Miembro de equipo"
+              class="member-photo01"
+            />
+            <p class="member-name text-center">Cynthia Gaffet</p>
+          </div>
+          <div class="member-container">
+            <img
+              src="./Assets/member4.png"
+              alt="Miembro de equipo"
+              class="member-photo02"
+            />
+            <p class="member-name text-center">Gustavo Seco</p>
+          </div>
         </div>
       </section>
     </main>
