@@ -384,6 +384,18 @@ input {
   transform: scale(0.9);
 }
 
+.photo-group1 {
+  padding: 50px 10px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-group2 {
+  padding: 25px 10px 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
 @media (max-width: 320px) {
   body {
     min-width: 320px;
@@ -460,6 +472,14 @@ input {
 
   .comment-section-published {
     margin-right: 10px;
+  }
+
+  .member-photo1,
+  .member-photo2,
+  .member-photo01,
+  .member-photo02 {
+    width: 30%;
+    height: auto;
   }
 }
 
