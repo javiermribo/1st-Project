@@ -457,6 +457,28 @@ li a {
   background-image: url(./Assets/twitter.svg);
 }
 
+.footer-items {
+  text-align: center;
+}
+
+.text-back {
+  /*   height: 230px; */
+  background: linear-gradient(
+    180deg,
+    rgba(138, 156, 245, 1) 17%,
+    rgba(138, 156, 245, 0.6362920168067228) 100%
+  );
+}
+
+.title-text-style2 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
 @media (max-width: 320px) {
   body {
     min-width: 320px;
