@@ -417,6 +417,46 @@ input {
   align-items: center;
 }
 
+footer {
+  background-color: blue;
+  width: 100%;
+  height: auto;
+}
+
+.Mascotienda-logo {
+  width: 65px;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 0.9rem;
+}
+
+li a {
+  color: beige;
+}
+
+.social1,
+.social2,
+.social3 {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
+.social1 {
+  background-image: url(./Assets/facebook.svg);
+}
+
+.social2 {
+  background-image: url(./Assets/instagram.svg);
+}
+
+.social3 {
+  background-image: url(./Assets/twitter.svg);
+}
+
 @media (max-width: 320px) {
   body {
     min-width: 320px;
@@ -457,6 +497,11 @@ input {
 @media (max-width: 426px) {
   .mbtn-text {
     margin-left: 30px;
+  }
+
+  .Mascotienda-logo {
+    width: 15%;
+    height: auto;
   }
 }
 
