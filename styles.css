@@ -242,7 +242,13 @@ input {
   padding: 0;
 }
 
-.food-card,
+.food-card {
+  background: #ffffff;
+  padding: 10px;
+  margin: auto;
+  border-radius: 8px;
+}
+
 .food-cardp {
   padding: 10px;
   margin: auto;
@@ -289,14 +295,6 @@ input {
 
 .card-login {
   height: 80%;
-}
-
-.login-radius1 {
-  border-radius: 0 8px 8px 0;
-}
-
-.login-radius2 {
-  border-radius: 8px 0 0 8px;
 }
 
 .align-text-button {
@@ -478,6 +476,14 @@ li a {
   color: #ffffff;
 }
 
+.comment-section-published {
+  margin-right: 10px;
+}
+
+.food-information {
+  padding-left: 0;
+}
+
 @media (max-width: 320px) {
   .subtext-food {
     width: max-content;
@@ -512,21 +518,6 @@ li a {
   }
 }
 
-@media (min-width: 768px) {
-  .row {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .food-information {
-    padding-left: 0;
-  }
-
-  .comment-section-published {
-    margin-right: 10px;
-  }
-}
-
 @media (max-width: 767px) {
   .align-text-button {
     display: block;
@@ -542,16 +533,5 @@ li a {
   .member-photo02 {
     width: 90px;
     height: auto;
-  }
-}
-
-@media (max-width: 991px) {
-  .small-radius {
-    border-radius: 8px;
-  }
-
-  .the-row {
-    display: flex;
-    justify-content: center;
   }
 }
