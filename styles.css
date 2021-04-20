@@ -462,7 +462,6 @@ li a {
 }
 
 .text-back {
-  /*   height: 230px; */
   background: linear-gradient(
     180deg,
     rgba(138, 156, 245, 1) 17%,
@@ -479,15 +478,11 @@ li a {
   font-size: 1rem;
 }
 
+.color-while-hover a {
+  color: #ffffff;
+}
+
 @media (max-width: 320px) {
-  body {
-    min-width: 320px;
-  }
-
-  .navbar {
-    max-width: 320px;
-  }
-
   .subtext-food {
     width: max-content;
     margin: auto;
