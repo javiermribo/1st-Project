@@ -407,10 +407,6 @@ input {
   justify-content: space-around;
 }
 
-.member-name {
-  padding-top: 10px;
-}
-
 .member-container {
   display: flex;
   flex-direction: column;
