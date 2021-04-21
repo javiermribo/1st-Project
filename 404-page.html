@@ -10,31 +10,199 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Lo sentimos!</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>¡Lo sentimos!</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar fixed-top navbar-light navbar-expand-lg shadow">
+        <a class="navbar-brand mascotienda-brand text-white" href="./index.html"
+          ><img
+            src="./Assets/Mascotienda-icon.svg"
+            width="25"
+            height="25"
+            alt="Logo Mascotienda"
+          />
+          Mascotienda</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./img-page.html"
+                >Clientes felices</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./About-Us.html"
+                >Sobre nosotros</a
+              >
+            </li>
+          </ul>
+          <form class="form-inline my-2 mr-3 my-lg-0">
+            <input
+              class="searchbox form-control mr-sm-2"
+              type="search"
+              placeholder="Ej: Alimento Dog Chow"
+              aria-label="Search"
+            />
+          </form>
+          <button
+            class="btn shadow btn-sec mr-3"
+            type="submit"
+            data-toggle="modal"
+            data-target="#subscriptionModal"
+          >
+            Suscribirse
+          </button>
+          <button class="btn shadow btn-prim mr-3" type="submit">
+            <a href="./Login-page.html" class="login-text">Ingresar</a>
+          </button>
+        </div>
+      </nav>
+    </header>
     <main>
       <section class="message">
-        <div class="404-content">
-          <img src="./img/image-404.png" alt="" />
-          <div
-            class="overlay d-flex flex-column align-items-center justify-content-center"
-          >
-            <h1 class="text-center font-weight-bold text-white">
-              Lo sentimos!
+        <div class="error-content">
+          <img src="./Assets/404-back.jpg" alt="Fondo página 404" />
+          <div class="error-content-info overlay-404 d-flex flex-column">
+            <h1 class="text-center font-weight-bold text-white mb-5">
+              ¡Firulais, no!
             </h1>
             <p class="text-center text-white">
-              No podemos mostrarte esta pagina en estos momentos. Estamos
-              trabajando para solucionarlo lo antes posible
+              Firu, estuvo haciendo travesuras de nuevo.
+            </p>
+            <p class="text-center text-white nd-paragraph">
+              Desafortunadamente, no podemos mostrarte esta página en estos
+              momentos. Estamos trabajando para solucionarlo lo antes posible.
             </p>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
-
+    <footer class="d-flex justify-content-around py-3">
+      <section class="Mascotienda-logo align-self-center">
+        <img src="./Assets/Mascotienda-icon.svg" alt=" Mascotienda-logo" />
+      </section>
+      <section class="footer-items">
+        <ul>
+          <li class="pt-3 color-while-hover">
+            <a href="./404-page.html">Contactanos</a>
+          </li>
+          <li class="pt-3 color-while-hover">
+            <a href="#">Tranaja con nosotros</a>
+          </li>
+          <li class="pt-3 color-while-hover"><a href="#">Privacidad</a></li>
+          <li class="pt-3 color-while-hover">
+            <a href="#">Terminos y condiciones</a>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="social-media-container d-flex flex-column justify-content-around"
+      >
+        <a href="#"><div class="social1"></div></a>
+        <a href="#"><div class="social2"></div></a>
+        <a href="#"><div class="social3"></div></a>
+      </section>
+    </footer>
+    <div
+      class="modal fade"
+      id="subscriptionModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h5
+              class="modal-title text-center pb-0 px-1"
+              id="exampleModalLabel"
+            >
+              Suscribite a Mascotienda+ y disfruta de increíbles beneficios
+            </h5>
+          </div>
+          <div class="modal-body d-flex flex-column align-items-center">
+            <img
+              class="img-subscription"
+              src="./Assets/pet.svg"
+              alt="Imagen suscripción"
+            />
+            <ul class="benefits px-3 mt-4 text-center">
+              <li>20% de descuento en alimentos</li>
+              <li class="pt-2">
+                10% de descuento en peluquería con veterinarias asociadas a
+                Mascotienda
+              </li>
+              <li class="pt-2">Envios sin cargo en todas tus compras</li>
+            </ul>
+            <form class="d-flex flex-column align-items-center w-100">
+              <label for="name">Ingresa tu nombre completo</label>
+              <input
+                type="text"
+                class="name d-block w-100"
+                placeholder="Juan Martinez"
+                required
+              />
+              <label for="email">Ingresa tu correo electronico</label>
+              <input
+                type="email"
+                class="email d-block w-100"
+                placeholder="tucorreo@gmail.com"
+                required
+              />
+              <label for="age">Tu edad</label>
+              <input
+                type="number"
+                class="age d-block w-100"
+                placeholder="35"
+                min="18"
+                max="99"
+                required
+              />
+              <div>
+                <input type="checkbox" class="terms" required />
+                <label class="agree" for="terms"
+                  >Acepto los términos y condiciones</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" class="newsletter" required />
+                <label class="agree" for="newsletter"
+                  >Acepto recibir novedades por email</label
+                >
+              </div>
+              <div class="modal-footer border-0">
+                <button
+                  type="button"
+                  class="btn btn-sec shadow"
+                  data-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+                <button type="submit" class="btn btn-prim shadow">
+                  Suscribirme
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

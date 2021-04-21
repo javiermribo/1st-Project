@@ -412,7 +412,7 @@ input {
 }
 
 footer {
-  background-color: blue;
+  background-color: #2845c8;
   width: 100%;
   height: auto;
 }
@@ -484,6 +484,31 @@ li a {
   padding-left: 0;
 }
 
+.error-content img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  object-fit: cover;
+}
+
+.overlay-404 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.error-content-info {
+  padding-top: 100px;
+}
+
+.nd-paragraph {
+  width: 60%;
+  margin: 0 auto;
+}
+
 @media (max-width: 320px) {
   .subtext-food {
     width: max-content;
@@ -533,5 +558,10 @@ li a {
   .member-photo02 {
     width: 90px;
     height: auto;
+  }
+
+  .nd-paragraph {
+    width: 100%;
+    margin: 0 auto;
   }
 }
