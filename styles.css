@@ -501,7 +501,8 @@ li a {
   right: 0;
 }
 
-.error-content-info {
+.error-content-info,
+.upper-p {
   padding-top: 100px;
 }
 
@@ -510,7 +511,44 @@ li a {
   margin: 0 auto;
 }
 
+.basic-info-container {
+  height: 55vh;
+}
+
+.contact-info1,
+.contact-info2,
+.contact-info3 {
+  background-color: #ffffff;
+  width: 300px;
+  height: 79px;
+  border-radius: 8px;
+}
+
+.subtext-position-card {
+  font-size: 0.8rem;
+}
+
+.name-contact-box {
+  width: 300px;
+  border-radius: 4px;
+}
+
+.contact-form-properties {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.textarea-properties-contact {
+  width: 300px;
+  height: 150px;
+  border-radius: 8px;
+}
+
 @media (max-width: 320px) {
+  nav {
+    min-width: 320px;
+  }
+
   .subtext-food {
     width: max-content;
     margin: auto;
