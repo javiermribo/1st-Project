@@ -119,6 +119,7 @@ input {
 
 .top-sales-items div,
 .novelties-items div {
+  background-color: #ffffff;
   border-radius: 5px;
   margin: 10px 0px;
 }
