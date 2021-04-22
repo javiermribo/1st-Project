@@ -33,7 +33,7 @@ h5 {
 
 .btn-sec {
   color: #021231;
-  background-color: #788cf3;
+  background-color: #8395ee;
   border: none;
 }
 
@@ -43,7 +43,7 @@ h5 {
 
 .login-text,
 .login-text:hover {
-  color: #021231;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ h5 {
 }
 
 .btn-prim:hover {
-  background-color: #f5b133;
+  background-color: #ffbd42;
   color: #021231;
   border: none;
 }
@@ -99,7 +99,7 @@ input {
 }
 
 .hero-section img {
-  width: 100%;
+  width: 100vh;
   min-width: 320px;
   height: 100vh;
   background-size: cover;
@@ -307,12 +307,14 @@ input {
 }
 
 .textarea-properties {
+  margin: 0 auto;
   width: 60%;
   height: 150px;
   border-radius: 8px;
 }
 
 .btn-form-width {
+  margin: 0 auto;
   width: fit-content;
 }
 
