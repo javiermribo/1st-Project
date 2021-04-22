@@ -117,8 +117,14 @@ input {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.top-sales-items div,
-.novelties-items div {
+.top-tile,
+.nov-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.top-sales-items article,
+.novelties-items article {
   background-color: #ffffff;
   border-radius: 5px;
   margin: 10px 0px;
@@ -138,7 +144,15 @@ input {
 }
 
 .most-view span {
-  font-size: 0.9rem;
+  height: 25px;
+  font-size: 0.7rem;
+}
+
+article:hover,
+article:focus,
+article:active {
+  -webkit-transform: scale(1) rotate(1deg);
+  transform: scale(1) rotate(1deg);
 }
 
 .product-section,
