@@ -546,6 +546,11 @@ li a {
   border-radius: 8px;
 }
 
+.content-img-align {
+  width: 90%;
+  margin: 0 auto;
+}
+
 @media (max-width: 320px) {
   nav {
     min-width: 320px;
