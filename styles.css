@@ -509,6 +509,8 @@ li a {
 }
 
 .overlay-404 {
+  width: 100%;
+  height: auto;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
   top: 0;
