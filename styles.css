@@ -510,7 +510,8 @@ li a {
 
 .overlay-404 {
   width: 100%;
-  height: auto;
+  min-width: 320px;
+  height: 100vh;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
   top: 0;
@@ -618,7 +619,7 @@ li a {
 
 @media (max-width: 320px) {
   nav {
-    min-width: 320px;
+    max-width: 320px;
   }
 
   .subtext-food {
@@ -655,8 +656,8 @@ li a {
 
   .mascotapp-mockup {
     z-index: 2;
-    margin: 0 auto;
-    width: 90%;
+    margin: auto;
+    width: 70%;
     height: auto;
   }
 }
