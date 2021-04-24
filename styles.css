@@ -4,13 +4,16 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   font-family: "Nunito", sans-serif;
+}
+
+html {
   min-width: 320px;
 }
 
 body {
-  font-family: "Nunito", sans-serif;
   font-size: 16px;
 }
 
@@ -18,12 +21,20 @@ body {
   background-color: #2845c8;
 }
 
-.mascotienda-brand {
+h5,
+.mascotienda-brand,
+.btn-prim,
+.top-tile,
+.nov-title,
+.card-section-title,
+.product-price,
+.cover-title,
+.product-food-title,
+.subtext-food {
   font-weight: 600;
 }
 
 h5 {
-  font-weight: 600;
   font-size: 1.6rem;
 }
 
@@ -50,7 +61,6 @@ h5 {
 .btn-prim {
   background-color: #f59c33;
   border: none;
-  font-weight: 600;
 }
 
 .btn-prim:hover {
@@ -120,7 +130,6 @@ input {
 .top-tile,
 .nov-title {
   font-size: 2rem;
-  font-weight: 600;
 }
 
 .top-sales-items article,
@@ -168,10 +177,6 @@ article:active {
   padding-bottom: 50px;
 }
 
-.card-section-title {
-  font-weight: 600;
-}
-
 .cards-container-product {
   padding: 30px 0 80px 0;
   display: flex;
@@ -198,10 +203,6 @@ article:active {
 
 .text-body-card {
   height: 48px;
-}
-
-.product-price {
-  font-weight: 600;
 }
 
 .product-card img {
@@ -246,7 +247,6 @@ article:active {
 }
 
 .cover-title {
-  font-weight: 600;
   font-size: 1.8rem;
 }
 
@@ -279,13 +279,11 @@ article:active {
 .product-food-title {
   color: #2845c8;
   text-align: center;
-  font-weight: 600;
   font-size: 3.8rem;
 }
 
 .subtext-food {
   text-align: center;
-  font-weight: 600;
   font-size: 0.8rem;
 }
 
@@ -399,25 +397,26 @@ article:active {
   transform: scale(0.9);
 }
 
-.photo-group1 {
-  padding: 50px 10px 16px;
+.photo-group1,
+.members-names1 {
   display: flex;
   justify-content: space-between;
+}
+
+.photo-group1 {
+  padding: 50px 10px 16px;
 }
 
 .photo-group2 {
   padding: 25px 10px 16px;
-  display: flex;
-  justify-content: space-around;
 }
 
 .members-names1 {
   padding: 0 10px;
-  display: flex;
-  justify-content: space-between;
 }
 
-.members-names2 {
+.members-names2,
+.photo-group2 {
   display: flex;
   justify-content: space-around;
 }
